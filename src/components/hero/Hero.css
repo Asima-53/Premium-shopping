@@ -1,0 +1,46 @@
+
+
+.hero-container {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/PD25/pded_af_unrec_2x._CB790369171_.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        text-align: center;
+        margin-bottom: 0;
+}
+
+.hero {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+}
+
+.hero h1 {
+        font-size: 69px;
+        color: rgb(221, 127, 230);
+}
+
+.hero h2 {
+        color: rgb(149, 132, 109);
+}
+
+.hero-heading {
+        font-size: 69px;
+        background: linear-gradient(rgb(241, 52, 64), rgb(211, 59, 170));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        
+}
+@media (max-width: 428px) {
+        .hero {
+                padding: 10px;
+        }
+        .hero-heading {
+                font-size: 25px;
+        }
+}

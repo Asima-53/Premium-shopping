@@ -1,0 +1,33 @@
+.products-bar {
+        background: whitesmoke;
+        padding: 10px 0px;
+}
+.products-bar-contents {
+        display: flex;
+        justify-content: space-around;
+}
+
+.products-bar-contents a:first-child {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+}
+
+.products-bar-contents a {
+        text-decoration: none;
+        padding: 3px;
+        color: darkslategray;
+        font-size: 19px;
+        transition: border 0.3s ease-in-out;
+}
+
+.products-bar-contents a:hover {
+        border: 2px solid rgb(25, 24, 24);
+        border-radius: 5px;
+}
+
+@media (max-width: 428px) {
+        .products-bar-contents a {
+                font-size: 12px;
+        }
+}

@@ -1,0 +1,19 @@
+.product-main-contaniner {
+        margin: 20px;
+}
+
+.product-card-container h2 {
+        text-align: center;
+}
+
+.product-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+}
+
+.loading {
+        text-align: center;
+        margin: 200px 0;
+}

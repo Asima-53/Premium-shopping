@@ -1,0 +1,83 @@
+.footer-main-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px 50px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-container a {
+  color: rgb(46, 44, 44);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.social-links h4 {
+  font-size: 18px;
+  color: rgb(82, 79, 76);
+}
+
+.social-icons {
+  display: flex;
+  gap: 50px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  color: rgb(122, 125, 128);
+  transition: color 0.3s ease-in-out;
+}
+
+
+.social-icons a:nth-child(1):hover {
+   color: rgb(206, 32, 32);
+}
+
+.social-icons a:nth-child(2):hover {
+   color: rgb(0, 0, 0);
+}
+
+.social-icons a:nth-child(3):hover {
+   color: red;
+}
+
+.social-icons a:nth-child(4):hover {
+   color: rgb(83, 155, 236);
+}
+
+.social-icons a:nth-child(5):hover {
+   color: rgb(0, 0, 0);
+}
+
+.copy-rights {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-main-container {
+    flex-direction: column;
+  }
+
+  
+
+  .social-links {
+    padding: 20px;
+  }
+
+  .social-icons {
+    gap: 20px;
+  }
+  
+}
