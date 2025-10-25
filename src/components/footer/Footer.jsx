@@ -57,7 +57,7 @@ const Footer = () => {
 
         <div className="copy-rights">
           <p>
-            &copy;Elite shopping Designed and developed by joel. All rights are
+            &copy;Elite shopping Designed and developed by Asima. All rights are
             reserved
           </p>
         </div>
